@@ -1,0 +1,57 @@
+html {
+    background-color: grey;
+}
+.small-container {    
+    margin: 100px 400px;    
+    height: 350px;
+    width: 300px;
+    border-radius: 2px;    
+    border: 1px solid white;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+}
+
+.btn.btn-primary {
+    width: 212px;    
+    color: white;
+    border-radius: 2px;
+    border: none;  
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+
+.login-h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:grey;
+    font-weight: bold;
+}
+
+.username, .password {
+    background-color: lightgrey;     
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+
+.username {
+    margin-bottom: 10px;
+}
+
+.forgot-pw {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    text-align: center;
+}
+
+.register-container, .logged-in-container {
+    display: none;
+}
+
