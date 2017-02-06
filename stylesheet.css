@@ -1,6 +1,7 @@
 html {
     background-color: grey;
 }
+
 .small-container {    
     margin: 100px 400px;    
     height: 350px;
@@ -20,6 +21,11 @@ html {
     position: relative;
     display: block;
     margin : 0 auto;
+}
+
+#register-btn {
+    margin-top: 10px;
+    display: block;
 }
 
 .login-h1 {
@@ -54,4 +60,3 @@ html {
 .register-container, .logged-in-container {
     display: none;
 }
-
